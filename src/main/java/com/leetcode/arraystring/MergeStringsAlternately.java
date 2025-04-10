@@ -1,4 +1,4 @@
-package com.leetcode.lc1768;
+package com.leetcode.arraystring;
 
 public class MergeStringsAlternately {
     public String mergeAlternately(String word1, String word2) {
