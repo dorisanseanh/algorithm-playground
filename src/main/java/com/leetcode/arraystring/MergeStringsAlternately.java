@@ -7,7 +7,6 @@ public class MergeStringsAlternately {
         int lent2 = word2.length();
         int maxLen = Math.max(lent1, lent2);
 
-
         for(int i = 0; i < maxLen ; i++) {
             if (i < lent1) sb.append(word1.charAt(i));
             if (i < lent2) sb.append(word2.charAt(i));
